@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>ONLINE SHOP</title>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="glide.core.css">
+<link rel="stylesheet" href="glide.theme.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+<!-- RESPONSIVE -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    /* Custom Styles for Carousel */
+    .glide__slide {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .new-products-div {
+        padding: 20px;
+    }
+
+    .price {
+        color: #3498db;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.4;
+    }
+
+    .glide__arrows {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .glide__arrow {
+        background-color: #3498db;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .glide__arrow:hover {
+        background-color: #2980b9;
+    }
+
+    .glide__arrow--disabled {
+        display: none;
+    }
+</style>
+</html>
+<body>
+<header class="first-section">
+    <div class="images">
+       <img src=https://via.placeholder.com/910x510/ alt="placeholder" >
+       <img src=https://via.placeholder.com/445x248/ alt="placeholder">
+       <img src=https://via.placeholder.com/445x248/ alt="placeholder">
+    </div>
+    <div class="products">
+    <div class="products-div">
+        <h3 class="product-title">TATTOO <span class="second-line">SUPPLIES</span></h3>
+        <img src=https://via.placeholder.com/160x170/ alt="placeholder">
+        <button class="btn">Shop now</button>
+    </div>
+    <div class="products-div">
+        <h3 class="product-title">BODY <span class="second-line">JEWLERY</span></h3>
+        <img src=https://via.placeholder.com/160x170/ alt="placeholder">
+        <button class="btn">Shop now</button>
+    </div>
+    <div class="products-div">
+        <h3 class="product-title">PIERCING <span class="second-line">SUPPLIES</span></h3>
+        <img src=https://via.placeholder.com/160x170/ alt="placeholder">
+        <button class="btn">Shop now</button>
+    </div>
+    <div class="products-div">
+        <h3 class="product-title">MEDICAL <span class="second-line">SUPPLIES </span></h3>
+        <img src=https://via.placeholder.com/160x170/ alt="placeholder">
+        <button class="btn">Shop now</button>
+    </div>
+    <div class="products-div">
+        <h3 class="product-title">PERMANENT <span class="second-line">MAKE UP </span></h3>
+        <img src=https://via.placeholder.com/160x170/ alt="placeholder">
+        <button class="btn">Shop now</button>
+    </div>
+    </div>
+
+
+</header>
+
+<footer class="second-section">
+ <h3 class="h3-title">NEW PRODUCTS</h3>
+<div class="glide">
+    <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+            <li class="glide__slide">
+                <div class="new-products-div">
+                    <img src="https://via.placeholder.com/220x165/" alt="placeholder">
+                    <p class="price">$499.99</p>
+                    <p class="description">Rook Quill Rotary Tattoo Machine- Copper</p>
+                </div>
+            </li>
+            <li class="glide__slide">
+                <div class="new-products-div">
+                    <img src="https://via.placeholder.com/220x165/" alt="placeholder">
+                    <p class="price">$499.99</p>
+                    <p class="description">Rook Quill Rotary Tattoo Machine - Blue</p>
+                </div>
+            </li>
+            <li class="glide__slide">
+                <div class="new-products-div">
+                    <img src="https://via.placeholder.com/220x165/" alt="placeholder">
+                    <p class="price">$1999.99</p>
+                    <p class="description">Pre-Order - Inkjecta Flite X1 Wireless Tattoo Machine..</p>
+                </div>
+            </li>
+            <li class="glide__slide">
+                <div class="new-products-div">
+                    <img src="https://via.placeholder.com/220x165/" alt="placeholder">
+                    <p class="price">$1999.99</p>
+                    <p class="description">Pre-Order - Inkjecta Flite X1 Wireless Tattoo Machine..</p>
+                </div>
+            </li>
+            <li class="glide__slide">
+                <div class="new-products-div">
+                    <img src="https://via.placeholder.com/220x165/" alt="placeholder">
+                    <p class="price">$1999.99</p>
+                    <p class="description">Pre-Order - Inkjecta Flite X1 Wireless Tattoo Machine...</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+    new Glide('.glide', {
+        type: "carousel",
+        perView: 3,
+        breakpoints: {
+            768: {
+                perView: 1
+            },
+            1024: {
+                perView: 2
+            }
+        }
+    }).mount();
+</script>
+</footer>
+
+</html>
+
+</body>

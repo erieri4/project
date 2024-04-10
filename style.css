@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif; 
+    line-height: 1.5;
+    
+}
+.price,.description{
+   font-size: 14px;
+}
+/* FIRST SECTION */
+
+/* THREE IMAGES */
+
+
+  .images {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    padding: 40px;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+}
+
+.images img:first-child {
+    grid-row: span 2; 
+    grid-column: 1; 
+}
+
+.images img:nth-child(2),
+.images img:nth-child(3) {
+    grid-column: 2; 
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px 40px; 
+}
+
+.products-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.product-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #31363F;
+}
+
+.product-title .second-line {
+    display: block;
+}
+
+.btn {
+    background: #3498db;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px; 
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+/* SECOND SECTION */
+.second-section {
+    background-color: #F6F5F5;
+    margin: 40px;
+    text-align: center;
+    padding: 40px 0; 
+  }
+
+  .new-products {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding: 20px; 
+  }
+
+  .new-products-div {
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 0 1 220px; 
+  }
+
+  .h3-title {
+    margin-top: 0;
+    padding: 20px 0 40px 0;
+  }
+
+  .price {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0; 
+  }
+
+  .description {
+    font-size: 12px;
+    margin-bottom: 10px; 
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .images {
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+
+    .images img:first-child {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    .products {
+        padding: 0 20px 20px;
+    }
+}
